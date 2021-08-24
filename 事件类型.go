@@ -7,4 +7,5 @@ const (
 	EventLoginSucceed              ////客户端 登陆成功事件
 	EventHeartBeat                 ////服务器 心跳事件
 	EventConnectClose              ///客户端 关闭连接事件
+	EventLoginFail                 ///客户端 登陆失败事件
 )
