@@ -8,4 +8,5 @@ const (
 	EventHeartBeat                 ////服务器 心跳事件
 	EventConnectClose              ///客户端 关闭连接事件
 	EventLoginFail                 ///客户端 登陆失败事件
+	EventLoginRepeat               ///客户端 重复登陆
 )
