@@ -1,0 +1,8 @@
+syntax = "proto3";
+package pb;
+
+message Message {
+       string node = 1;
+       sint32 code = 2;
+       bytes content = 3;
+}
