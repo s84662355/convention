@@ -4,5 +4,8 @@ package pb;
 message Message {
        string node = 1;
        sint32 code = 2;
-       bytes content = 3;
+       bytes  content = 3;
+       sint32 user_id = 4;
+       sint32 device_type = 5;
+       sint64 timestampt = 6;
 }
